@@ -28,10 +28,10 @@ if (approval) {
                 sumFromNToM += i;
             }
         }
-    }
-
-    for (let i = numberN; i <= numberM; i++) {
-        sumFromNToM += i;
+    } else {
+        for (let i = numberN; i <= numberM; i++) {
+            sumFromNToM += i;
+        }    
     }
 
     alert(`Sum from ${numberN} to ${numberM} = ${sumFromNToM}`);
