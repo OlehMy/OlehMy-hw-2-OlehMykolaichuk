@@ -23,19 +23,19 @@ if (approval) {
     let sumFromNToM = 0;
 
     if (countEvenNumbers) {
-        for (numberN; numberN <= numberM; numberN++) {
-            if (numberN % 2) {
-                sumFromNToM += numberN;
+        for (let i = numberN; i <= numberM; i++) {
+            if (i % 2) {
+                sumFromNToM += i;
             }
         }
     }
 
-    for (numberN; numberN <= numberM; numberN++) {
-        sumFromNToM += numberN;
+    for (let i = numberN; i <= numberM; i++) {
+        sumFromNToM += i;
     }
 
-    alert(`Sum from N to M = ${sumFromNToM}`);
-    console.log(`Sum from N to M = ${sumFromNToM}`);
+    alert(`Sum from ${numberN} to ${numberM} = ${sumFromNToM}`);
+    console.log(`Sum from ${numberN} to ${numberM} = ${sumFromNToM}`);
 
 } else {
     alert('Have a nice day :)');
