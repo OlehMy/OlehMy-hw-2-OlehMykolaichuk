@@ -3,13 +3,13 @@ if (approval) {
 
     let numberN
     do {
-        numberN = (+prompt('Enter the number N (N must be an integer)'));
+        numberN = +prompt('Enter the number N (N must be an integer)');
     } while (!Number.isInteger(numberN));
     console.log(`N = ${numberN}`);
 
     let numberM
     do {
-        numberM = (+prompt('Enter the number M (M must be an integer)'));
+        numberM = +prompt('Enter the number M (M must be an integer)');
     } while (!Number.isInteger(numberM));
     console.log(`M = ${numberM}`);
 
